@@ -3,12 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
   <div>
-    <h1 className="border-4 border-gold">
-      Hello world!
-    </h1>
-    <h1 className= "text-yellow-500">
-      Hello world!
-    </h1>
+    <p className="text-xs sm:text-base lg:text-3xl mb-6">Hello long sentence</p>
+    <p className="text-xs ">Neki random</p>
   </div>
   
   );
